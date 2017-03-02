@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.caosaje1.radio_button.MainActivity">
+
+
+    <RadioGroup
+        android:id="@+id/RadioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rCirculo"
+            android:text="@string/circulo"
+            android:textSize="15dp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/Radio"
+            android:textSize="8dp"
+            android:textAlignment="center"
+            android:inputType="numberDecimal"
+            android:id="@+id/eRadio" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rCuadro"
+            android:text="@string/cuadro"
+            android:textSize="15dp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="@string/Lado"
+            android:textSize="8dp"
+            android:textAlignment="center"
+            android:inputType="numberDecimal"
+            android:id="@+id/eLado" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rTriangulo"
+            android:text="@string/triangulo"
+            android:textSize="15dp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/Base"
+            android:textSize="8dp"
+            android:textAlignment="center"
+            android:inputType="numberDecimal"
+            android:id="@+id/eBase" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/Altura"
+            android:textSize="8dp"
+            android:textAlignment="center"
+            android:inputType="numberDecimal"
+            android:id="@+id/eAltura" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/Lado1"
+            android:textSize="8dp"
+            android:textAlignment="center"
+            android:inputType="numberDecimal"
+            android:id="@+id/eLado1" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/Lado2"
+            android:textSize="8dp"
+            android:textAlignment="center"
+            android:inputType="numberDecimal"
+            android:id="@+id/eLado2" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rCubo"
+            android:text="@string/cubo"
+            android:textSize="15dp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/Ladoc"
+            android:textSize="8dp"
+            android:textAlignment="center"
+            android:inputType="numberDecimal"
+            android:id="@+id/eLadoc" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/calcular"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:id="@+id/bCalcular"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/Area"
+            android:textSize="8dp"
+            android:textAlignment="center"
+            android:inputType="numberDecimal"
+            android:id="@+id/eArea" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/Perimetro"
+            android:textSize="8dp"
+            android:textAlignment="center"
+            android:inputType="numberDecimal"
+            android:id="@+id/ePerimetro" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/Volumen"
+            android:textSize="8dp"
+            android:textAlignment="center"
+            android:inputType="numberDecimal"
+            android:id="@+id/eVolumen" />
+
+
+
+    </RadioGroup>
+
+
+</RelativeLayout>

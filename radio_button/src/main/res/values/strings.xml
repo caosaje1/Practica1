@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Radio_Button</string>
+    <string name="circulo">Circulo</string>
+    <string name="cuadro">Cuadro</string>
+    <string name="triangulo">Triángulo</string>
+    <string name="cubo">Cubo</string>
+    <string name="Radio">Radio del circulo</string>
+    <string name="Lado">Lado del cuadro</string>
+    <string name="Base">Base triángulo</string>
+    <string name="Altura">Altura triángulo</string>
+    <string name="Lado1">Lado 1 triángulo</string>
+    <string name="Lado2">Lado 2 triángulo</string>
+    <string name="Lado3">Lado 3 triangulo</string>
+    <string name="Ladoc">Lado cubo</string>
+    <string name="calcular">Calcular</string>
+    <string name="Area">Area</string>
+    <string name="Perimetro">Perimetro</string>
+    <string name="Volumen">Volumén</string>
+</resources>
